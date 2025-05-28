@@ -4,3 +4,6 @@
 3. What does it automate?
 4. Our code automates different kinds of prices for the Boba, ice cream, and popsicles.
    
+Screenshot of Boba order code working![image](https://github.com/user-attachments/assets/760a4160-934a-4980-a1c0-763f1a5a5298)
+
+
