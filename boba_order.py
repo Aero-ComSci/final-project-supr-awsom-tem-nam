@@ -42,4 +42,19 @@ while boba_ordered < int(amount_of_boba):
         print("Invalid input. Please enter a valid option.")
 
 print("\nYour order:\n" + "".join(order))
+
+print("Total: $" + str(order_cost))
+   toppings = input("Would you like any toppings? (Honeydew Boba, Crushed Oreos, Lychee Jelly) Type 'none' if no toppings: ").lower()
+    if toppings in ["honeydew boba", "crushed oreos", "lychee jelly"]:
+        print("Adding " + toppings + " to your order. $1.25 has been added to your total.")
+        order.append(toppings + "\n")
+        order_cost += 1.25
+    elif toppings == "none":
+        print("No extra toppings added.")
+    else:
+        print("Invalid input. No extra toppings added.")
+
+    print("Complimentary tapioca pearls have been added to your order!\n")
+
+print("Your order:\n" + "".join(order))
 print("Total: $" + str(order_cost))
