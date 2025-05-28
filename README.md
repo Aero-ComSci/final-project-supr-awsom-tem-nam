@@ -3,7 +3,4 @@
    This program is for people who enjoy eating and drinking outside and it comes with many different flavors and has different prices. 
 2. What does it automate?
    Our code automates different kinds of prices for the Boba, ice cream, and popsicles.
-   
-Screenshot of Boba order code working![image](https://github.com/user-attachments/assets/760a4160-934a-4980-a1c0-763f1a5a5298)
-
 
